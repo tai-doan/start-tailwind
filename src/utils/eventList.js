@@ -1,0 +1,4 @@
+export default {
+    CHANGE_LANGUAGE: 'CHANGE_LANGUAGE',
+    CHANGE_THEME: 'CHANGE_THEME',
+}

@@ -1,0 +1,14 @@
+{
+    "common_login": "Login",
+    "common_signup": "Register",
+    "common_forgot_password": "Forgot your password?",
+    "common_recommend_me": "Recommend me",
+    "common_email": "Email",
+    "common_password": "Password",
+    "format_email_wrong": "Please provide a valid email address.",
+    "password_is_require": "Password is require",
+    "light_theme": "Light theme",
+    "dark_theme": "Dark theme",
+    "select_language": "Select language",
+    "select_theme": "Select theme"
+}

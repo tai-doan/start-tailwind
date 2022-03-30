@@ -1,16 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
 import './index.css';
-import App from './App';
+import './i18n'
+import { BrowserRouter } from 'react-router-dom'
+import * as serviceWorker from './serviceWorker'
 import reportWebVitals from './reportWebVitals';
 
+if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
+  // dev code
+} else {
+  console.log = () => { }
+  console.warn = () => { }
+  console.error = () => { }
+}
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root')
-);
+  )
+  {/* <script src="https://unpkg.com/flowbite@1.3.4/dist/flowbite.js"></script> */}
 
+serviceWorker.register()
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals

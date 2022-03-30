@@ -1,0 +1,15 @@
+{
+    "common_login": "Đăng nhập",
+    "common_signup": "Đăng ký",
+    "common_forgot_password": "Quên mật khẩu?",
+    "common_recommend_me": "Lưu đăng nhập",
+    "common_email": "Email",
+    "common_password": "Password",
+    "format_email_wrong": "Email không đúng định dạng, vui lòng nhập email đúng định dạng",
+    "password_is_require": "Mật khẩu không được để trống",
+    "light_theme": "Giao diện sáng",
+    "dark_theme": "Giao diện tối",
+    "select_language": "Chọn ngôn ngữ",
+    "select_theme": "Chọn giao diện"
+
+}
